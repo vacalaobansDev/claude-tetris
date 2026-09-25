@@ -54,8 +54,11 @@ jobs:
 
             3. Post one comment on the issue (via `gh issue comment`) with a general
                diagnosis to help a developer plan the fix later. Do NOT write or
-               propose actual code changes — this is diagnosis only. Structure the
-               comment as:
+               propose actual code changes — this is diagnosis only. Write the
+               comment body using GitHub-flavored Markdown that GitHub's UI can
+               render correctly (headings, bold text, inline code spans with
+               backticks, and fenced code blocks where useful) — do not paste it
+               as raw/escaped text. Structure the comment as:
 
                ## Diagnosis
 
